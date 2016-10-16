@@ -1,13 +1,13 @@
 ---
 layout: post
 title: BlocJams
-thumbnail-path: "img/blocjams.png"
+thumbnail-path: "img/Landing.png"
 short-description: BlocJams is a Spotify replica for playing your favorite music.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/Landing.png)
 
 ## Explanation
 
@@ -73,12 +73,13 @@ var findParentByClassName = function(elem, targetClass) {
 
 * I refactored the application using jQuery selectors and the jQuery API to handle events, animation, and document manipulation.
 * I used jQuery to add a music player with play/pause and seek functionality:
+
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/playerBar.png)
 
 **AngularJS**
 
-* In addition to refactoring the application in AngularJS, I extended the application's capabilities by implementing a play on load in the Album controller:
+* In addition to refactoring the application with the Angular framework, I extended the application's capabilities by implementing a play on load `init` function in the Album controller:
 {% highlight javascript %}
 (function() {
 	function AlbumCtrl(Fixtures, SongPlayer) {
@@ -94,7 +95,7 @@ var findParentByClassName = function(elem, targetClass) {
 		.controller('AlbumCtrl', ['Fixtures', 'SongPlayer', AlbumCtrl]);
 })();
 {% endhighlight %}
-* I also implemented mute toggle functionality utilizing the Buzz API, which is applied to the volume icon in the player bar:
+* I also implemented a `toggleMute` function utilizing the Buzz API, which is applied to the volume icon in the player bar:
 {% highlight html %}
 <a class='icon' ng-click='playerBar.songPlayer.toggleMute()'>
 	<span class='ion-volume-high'
@@ -109,9 +110,13 @@ var findParentByClassName = function(elem, targetClass) {
 ## Results
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/Collection.png)
 
-Add results text here
+Through JavaScript, the jQuery API, the Buzz API, and the AngularJS framework, I built a Spotify replica with the ability to display an album collection, as well as an individual album. It contains a song player that has play/pause, next/previous, and seek functionality. I gained experience in constructing algorithms to implement user stories, utilizing responsive web design, and refactoring code.
+
+{:.center}
+![]({{ site.baseurl }}/img/Album.png)
 
 ## Conclusion
 
+Though there is functionality that BlocJams lacks, it was a rewarding first pass at frontend web development. I was able to see the connection between the code on the screen and the interactive aspects in the application. In addition, I was exposed to the AngularJS framework, and I have a better idea of what goes in to constructing a user-friendly, highly functional web application.
