@@ -1,3 +1,7 @@
+# My Portfolio site
+**Check out my website [here](http://blairlunceford.com)**
+
+
 # Portfolio Kami Theme
 ## Based on Type Theme
 

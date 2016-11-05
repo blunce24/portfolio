@@ -11,11 +11,11 @@ short-description: BlocJams is a Spotify replica for playing your favorite music
 
 ## Explanation
 
-For my first project, I set out to build BlocJams, a replica of Spotify, with the guidance of Bloc. The application was a vehicle to learn basic HTML and CSS, as well as front-end programming using vanilla JavaScript, jQuery, and AngularJS. I learned a lot through this process and encountered some interesting challenges.
+For my first project, I set out to build [BlocJams](https://github.com/blunce24/bloc-jams-angular), a replica of Spotify, with the guidance of Bloc. The application was a vehicle to learn basic HTML and CSS, as well as front-end programming using vanilla JavaScript, jQuery, and AngularJS. I learned a lot through this process and encountered some interesting challenges.
 
 ## Problem
 
-The first part of the project focused on building a foundation of HTML/CSS and JavaScript for both myself and the application. I wanted the app's style to be consistent with modern web applications, including having a responsive design. I used DOM scripting with JavaScript to make the app interactive. I then refactored the application with jQuery, introducing a music player with play/pause and seek functionality. The last step was to refactor the application with AngularJS, and further add play-on-page-load and mute capabilities. 
+The first part of the project focused on building a foundation of HTML/CSS and JavaScript for both myself and the application. I wanted the app's style to be consistent with modern web applications, including having a responsive design. I used DOM scripting with JavaScript to make the app interactive. I then refactored the application with jQuery, introducing a music player with play/pause and seek functionality. The last step was to refactor the application with AngularJS, and further add play-on-page-load and mute capabilities.
 
 ## Solution
 
@@ -25,14 +25,14 @@ The first part of the project focused on building a foundation of HTML/CSS and J
 * I utilized responsive web development methods, such as CSS media queries to apply styles based on device breakpoints:
 {% highlight javascript %}
 @media (min-width: 640px) {
-	html { font-size: 112%; } 
-	
+	html { font-size: 112%; }
+
 	.column {
 		float: left; 	
-		padding-left: 1rem; 
+		padding-left: 1rem;
 		padding-right: 1rem;
 	}
-     
+
 	.column.full { width: 100%; }
 	.column.two-thirds { width: 66.7%; }
 	.column.half { width: 50%; }
@@ -95,7 +95,7 @@ var findParentByClassName = function(elem, targetClass) {
 		.controller('AlbumCtrl', ['Fixtures', 'SongPlayer', AlbumCtrl]);
 })();
 {% endhighlight %}
-* I also implemented a `toggleMute` function utilizing the Buzz API, which is applied to the volume icon in the player bar:
+* I also implemented a `toggleMute` function utilizing the [Buzz API](http://buzz.jaysalvat.com), which is applied to the volume icon in the player bar:
 {% highlight html %}
 <a class='icon' ng-click='playerBar.songPlayer.toggleMute()'>
 	<span class='ion-volume-high'
@@ -119,4 +119,4 @@ Through JavaScript, the jQuery API, the Buzz API, and the AngularJS framework, I
 
 ## Conclusion
 
-Though there is functionality that BlocJams lacks, it was a rewarding first pass at frontend web development. I was able to see the connection between the code on the screen and the interactive aspects in the application. In addition, I was exposed to the AngularJS framework, and I have a better idea of what goes in to constructing a user-friendly, highly functional web application.
+Though there is functionality that BlocJams lacks, it was a rewarding first pass at front-end web development. I was able to see the connection between the code on the screen and the interactive aspects in the application. In addition, I was exposed to the AngularJS framework, and I have a better idea of what goes in to constructing a user-friendly, highly functional web application.
