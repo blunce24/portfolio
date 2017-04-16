@@ -66,4 +66,4 @@ I ran into some interesting debugging challenges during this project. I learned 
 
 ## Conclusion
 
-Building the BlocChat application gave me a deeper understanding of how the Angular framework functions, and a taste of back-end programming through Firebase. I am excited to learn more back-end programming to complement my front-end experience so far, and continue my path to become a full-stack software developer. 
+Building the BlocChat application gave me a deeper understanding of how the Angular framework functions, and a taste of back-end programming through Firebase. I am excited to learn more back-end programming to complement my front-end experience so far, and continue my path to become a full-stack software developer.

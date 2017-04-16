@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 
-I am an aspiring software developer currently studying with Bloc. I'm interested in software development as a career because I love problem solving and creating great products. I'm currently working as an analyst at a commercial real estate appraisal firm while I pursue this dream.
+I am an aspiring software developer currently studying with Bloc. I'm interested in software development as a career because I love problem solving and creating great products. I'm currently working as a ski instructor and summer outfitter in Colorado while I pursue this dream.
 
 **Education**
 
@@ -14,8 +14,8 @@ I am an aspiring software developer currently studying with Bloc. I'm interested
 
 **Work Experience**
 
-* Analyst, JLL Valuation and Advisory Services, 2016 - present
 * Certified Ski Instructor, Steamboat Ski and Resort Corp, 2015 - present
+* Analyst, JLL Valuation and Advisory Services, 2016
 * Analyst, Intertek, 2015
 
 {:.center}
